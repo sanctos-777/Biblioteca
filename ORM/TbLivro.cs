@@ -15,7 +15,7 @@ public partial class TbLivro
 
     public int Fkcategoria { get; set; }
 
-    public byte[] Disponibilidade { get; set; } = null!;
+    public byte [] Disponibilidade { get; set; }
 
     public virtual TbCategoria FkcategoriaNavigation { get; set; } = null!;
 

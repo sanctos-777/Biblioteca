@@ -11,6 +11,6 @@
 
         public int FkCategoria { get; set; }
 
-        public bool Disponibilidade { get; set; }
+        public byte[] Disponibilidade { get; set; }
     }
 }

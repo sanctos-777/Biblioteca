@@ -20,8 +20,8 @@ namespace Biblioteca.Repositorio
             {
                 DataDevolucao = emprestimo.DataDevolucao,
                 DataEmprestimo = emprestimo.DataEmprestimo,
-                FkLivro = emprestimo.FkLivro,
-                FkMembro = emprestimo.FkMembro
+                Fklivro = emprestimo.Fklivro,
+                Fkmembro = emprestimo.Fkmembro
             };
 
             // Adiciona a entidade ao contexto
@@ -62,8 +62,8 @@ namespace Biblioteca.Repositorio
                     Id = item.Id,
                     DataDevolucao = item.DataDevolucao,
                     DataEmprestimo = item.DataEmprestimo,
-                    FkLivro = item.FkLivro,
-                    FkMembro = item.FkMembro
+                    Fklivro = item.Fklivro,
+                    Fkmembro = item.Fkmembro
                 };
 
                 listEmp.Add(emprestimo);
@@ -88,8 +88,8 @@ namespace Biblioteca.Repositorio
                 Id = item.Id,
                 DataDevolucao = item.DataDevolucao,
                 DataEmprestimo = item.DataEmprestimo,
-                FkLivro = item.FkLivro,
-                FkMembro = item.FkMembro
+                Fklivro = item.Fklivro,
+                Fkmembro = item.Fkmembro
             };
 
             return emprestimo; // Retorna o Emprestimo encontrado
@@ -105,8 +105,8 @@ namespace Biblioteca.Repositorio
                 // Atualiza os campos da entidade com os valores do objeto Membro recebido
                 tbEmprestimo.DataDevolucao = emprestimo.DataDevolucao;
                 tbEmprestimo.DataEmprestimo = emprestimo.DataEmprestimo;
-                tbEmprestimo.FkLivro = emprestimo.FkLivro;
-                tbEmprestimo.FkMembro = emprestimo.FkMembro;
+                tbEmprestimo.Fklivro = emprestimo.Fklivro;
+                tbEmprestimo.Fkmembro = emprestimo.Fkmembro;
 
 
 

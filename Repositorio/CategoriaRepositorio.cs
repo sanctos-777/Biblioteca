@@ -139,5 +139,15 @@ namespace Biblioteca.Repositorio
                 throw new Exception("Categoria não encontrada.");
             }
         }
+
+        internal void Add(Categoria categoria)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal void Update(Categoria categoriaExistente)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Biblioteca.Model
 {
-    public class FuncionarioDto
+    public class MembroDto
     {
         public string Nome { get; set; }
 
@@ -8,6 +8,8 @@
 
         public int Telefone { get; set; }
 
-        public string Cargo { get; set; }
+        public int DataCadastro { get; set; }
+
+        public string TipoMembro { get; set; }
     }
 }

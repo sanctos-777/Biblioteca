@@ -4463,11 +4463,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno Noite\\source\\repos\\Bibiloteca\\Bibiloteca.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno Noite\\Desktop\\Biblioteca\\Bibiloteca.csproj",
       "projectName": "Bibiloteca",
-      "projectPath": "C:\\Users\\Aluno Noite\\source\\repos\\Bibiloteca\\Bibiloteca.csproj",
+      "projectPath": "C:\\Users\\Aluno Noite\\Desktop\\Biblioteca\\Bibiloteca.csproj",
       "packagesPath": "C:\\Users\\Aluno Noite\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno Noite\\source\\repos\\Bibiloteca\\obj\\",
+      "outputPath": "C:\\Users\\Aluno Noite\\Desktop\\Biblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Aluno Noite\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -19,9 +19,8 @@ namespace Biblioteca.Repositorio
                 Titulo = livro.Titulo,
                 Autor = livro.Autor,
                 AnoPublicacao = livro.AnoPublicacao,
-                FkCategoria = livro.FkCategoria,
+                Fkcategoria = livro.FkCategoria,
                 Disponibilidade = livro.Disponibilidade
-
             };
 
             // Adiciona a entidade ao contexto
@@ -63,7 +62,7 @@ namespace Biblioteca.Repositorio
                     Titulo = item.Titulo,
                     Autor = item.Autor,
                     AnoPublicacao = item.AnoPublicacao,
-                    FkCategoria = item.FkCategoria,
+                    FkCategoria = item.Fkcategoria,
                     Disponibilidade = item.Disponibilidade
                 };
 
@@ -90,7 +89,7 @@ namespace Biblioteca.Repositorio
                 Titulo = item.Titulo,
                 Autor = item.Autor,
                 AnoPublicacao = item.AnoPublicacao,
-                FkCategoria = item.FkCategoria,
+                FkCategoria = item.Fkcategoria,
                 Disponibilidade = item.Disponibilidade
             };
 
@@ -107,7 +106,7 @@ namespace Biblioteca.Repositorio
                 // Atualiza os campos da entidade com os valores do objeto Membro recebido
                 tbLivro.Titulo = livro.Titulo;
                 tbLivro.Autor = livro.Autor;
-                tbLivro.FkCategoria = livro.FkCategoria;
+                tbLivro.Fkcategoria = livro.FkCategoria;
                 tbLivro.AnoPublicacao = livro.AnoPublicacao;
 
 
